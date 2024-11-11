@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>SkillBloom</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-primary"
+                role="status"
+                style="width: 3rem; height: 3rem"
+            ></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <div
+            class="container-fluid fixed-top px-0 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <nav
+                class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn"
+                data-wow-delay="0.1s"
+            >
+                <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                    <h1 class="display-5 text-primary m-0">SkillBloom</h1>
+                </a>
+                <button
+                    type="button"
+                    class="navbar-toggler me-4"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto p-4 p-lg-0">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link active"
+                            >Services</a
+                        >
+
+                        <a href="testimonial.html" class="nav-item nav-link"
+                            >Testimonial</a
+                        >
+                        <a href="contact.html" class="nav-item nav-link"
+                            >Contact</a
+                        >
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Page Header Start -->
+        <div
+            class="container-fluid page-header mb-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container">
+                <h1 class="display-3 mb-4 animated slideInDown">Services</h1>
+                <nav aria-label="breadcrumb animated slideInDown">
+                    <ol class="breadcrumb mb-0">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">
+                            Services
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <!-- Page Header End -->
+
+        <!-- Service Start -->
+        <div class="container-xxl service py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 600px"
+                >
+                    <p
+                        class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3"
+                    >
+                        Our Services
+                    </p>
+                    <h1 class="display-5 mb-5">
+                        Expert Guidance for Your Educational Goals
+                    </h1>
+                </div>
+                <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-lg-4">
+                        <div
+                            class="nav nav-pills d-flex justify-content-between w-100 h-100 me-4"
+                        >
+                            <button
+                                class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4 active"
+                                data-bs-toggle="pill"
+                                data-bs-target="#tab-pane-1"
+                                type="button"
+                            >
+                                <h5 class="m-0">
+                                    <i class="fa fa-bars text-primary me-3"></i
+                                    >Admissions Counseling
+                                </h5>
+                            </button>
+                            <button
+                                class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4"
+                                data-bs-toggle="pill"
+                                data-bs-target="#tab-pane-2"
+                                type="button"
+                            >
+                                <h5 class="m-0">
+                                    <i class="fa fa-bars text-primary me-3"></i
+                                    >Scholarship Guidance
+                                </h5>
+                            </button>
+                            <button
+                                class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4"
+                                data-bs-toggle="pill"
+                                data-bs-target="#tab-pane-3"
+                                type="button"
+                            >
+                                <h5 class="m-0">
+                                    <i class="fa fa-bars text-primary me-3"></i
+                                    >Career Planning Services
+                                </h5>
+                            </button>
+                            <button
+                                class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-0"
+                                data-bs-toggle="pill"
+                                data-bs-target="#tab-pane-4"
+                                type="button"
+                            >
+                                <h5 class="m-0">
+                                    <i class="fa fa-bars text-primary me-3"></i
+                                    >Organize Your Educational Documents
+                                </h5>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="tab-content w-100">
+                            <div
+                                class="tab-pane fade show active"
+                                id="tab-pane-1"
+                            >
+                                <div class="row g-4">
+                                    <div
+                                        class="col-md-6"
+                                        style="min-height: 350px"
+                                    >
+                                        <div class="position-relative h-100">
+                                            <img
+                                                class="position-absolute rounded w-100 h-100"
+                                                src="img/service-1.jpg"
+                                                style="object-fit: cover"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h3 class="mb-4">
+                                            Admissions Counseling
+                                        </h3>
+                                        <p class="mb-4">
+                                            Navigating the college and
+                                            university admissions process can be
+                                            challenging. Our team provides
+                                            tailored guidance to help students
+                                            submit strong applications, write
+                                            compelling essays, and understand
+                                            what institutions are looking for in
+                                            candidates.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="tab-pane-2">
+                                <div class="row g-4">
+                                    <div
+                                        class="col-md-6"
+                                        style="min-height: 350px"
+                                    >
+                                        <div class="position-relative h-100">
+                                            <img
+                                                class="position-absolute rounded w-100 h-100"
+                                                src="img/service-2.jpg"
+                                                style="object-fit: cover"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h3 class="mb-4">
+                                            Scholarship Guidance
+                                        </h3>
+                                        <p class="mb-4">
+                                            We assist students in finding and
+                                            applying for scholarships and
+                                            financial aid programs. Our advisors
+                                            help students identify
+                                            opportunities, review eligibility
+                                            criteria, and prepare successful
+                                            applications for both local and
+                                            international scholarships.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="tab-pane-3">
+                                <div class="row g-4">
+                                    <div
+                                        class="col-md-6"
+                                        style="min-height: 350px"
+                                    >
+                                        <div class="position-relative h-100">
+                                            <img
+                                                class="position-absolute rounded w-100 h-100"
+                                                src="img/service-3.jpg"
+                                                style="object-fit: cover"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h3 class="mb-4">
+                                            Career Planning Services
+                                        </h3>
+                                        <p class="mb-4">
+                                            Whether you're planning your
+                                            academic path or considering career
+                                            options, our team provides insights
+                                            and resources to help you choose
+                                            fields of study and potential career
+                                            paths that align with your goals and
+                                            strengths.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="tab-pane-4">
+                                <div class="row g-4">
+                                    <div
+                                        class="col-md-6"
+                                        style="min-height: 350px"
+                                    >
+                                        <div class="position-relative h-100">
+                                            <img
+                                                class="position-absolute rounded w-100 h-100"
+                                                src="img/service-4.jpg"
+                                                style="object-fit: cover"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h3 class="mb-4">
+                                            Organize Your Educational Documents
+                                        </h3>
+                                        <p class="mb-4">
+                                            Preparing for college or a
+                                            professional career requires a
+                                            collection of essential documents.
+                                            Our service ensures you have
+                                            everything you need, from
+                                            transcripts and recommendation
+                                            letters to certificates and
+                                            portfolio pieces, for a smooth
+                                            application process.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+        <!-- Callback Start -->
+        <div class="container-fluid callback my-5 pt-5">
+            <div class="container pt-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7">
+                        <div
+                            class="bg-white border rounded p-4 p-sm-5 wow fadeInUp"
+                            data-wow-delay="0.5s"
+                        >
+                            <div
+                                class="text-center mx-auto wow fadeInUp"
+                                data-wow-delay="0.1s"
+                                style="max-width: 600px"
+                            >
+                                <p
+                                    class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3"
+                                >
+                                    Get In Touch
+                                </p>
+                                <h1 class="display-5 mb-5">
+                                    Request A Call-Back
+                                </h1>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-sm-6">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="name"
+                                            placeholder="Your Name"
+                                        />
+                                        <label for="name">Your Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-floating">
+                                        <input
+                                            type="email"
+                                            class="form-control"
+                                            id="email"
+                                            placeholder="Your Email"
+                                        />
+                                        <label for="mail">Your Email</label>
+                                        <div
+                                            id="result"
+                                            style="color: red"
+                                        ></div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="mobile"
+                                            placeholder="Your Mobile"
+                                        />
+                                        <label for="mobile">Your Mobile</label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-floating">
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="subject"
+                                            placeholder="Subject"
+                                        />
+                                        <label for="subject">Subject</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea
+                                            class="form-control"
+                                            placeholder="Leave a message here"
+                                            id="message"
+                                            style="height: 100px"
+                                        ></textarea>
+                                        <label for="message">Message</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button
+                                        class="btn btn-primary w-100 py-3"
+                                        type="submit"
+                                        id="submit"
+                                        onclick="sendForm()"
+                                    >
+                                        Submit Now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Callback End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-white mb-4">SkillBloom</h4>
+                        <p>
+                            Explore our comprehensive resources and expert
+                            guidance on academic success and lifelong learning.
+                            Stay informed with the latest education insights,
+                            resources, and tools to enhance your learning
+                            experience. Register with us for personalized
+                            support tailored to your educational needs.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-white mb-4">Our Office</h4>
+                        <p class="mb-2">
+                            <i class="fa fa-map-marker-alt me-3"></i>2nd Floor,
+                            Sandton Close, 2B Norwich Cl, Sandton, 2196, South
+                            Africa
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt me-3"></i>+27116857300
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope me-3"></i
+                            >skill_bloom@gmail.com
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-white mb-4">Quick Links</h4>
+                        <a class="btn btn-link" href="about.html">About Us</a>
+                        <a class="btn btn-link" href="contact.html"
+                            >Contact Us</a
+                        >
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Terms of use</a
+                        >
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Privacy Policy</a
+                        >
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-white mb-4">Newsletter</h4>
+                        <p>
+                            Sign up to receive updates on the latest educational
+                            resources and tips.
+                        </p>
+                        <div class="position-relative w-100">
+                            <input
+                                class="form-control bg-white border-0 w-100 py-3 ps-4 pe-5"
+                                type="text"
+                                placeholder="Your email"
+                                id="email"
+                            />
+                            <button
+                                type="button"
+                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+                                id="submit"
+                                onclick="sendForm()"
+                            >
+                                SignUp
+                            </button>
+                            <div id="result" style="color: red"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie Consent</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    This website uses cookies to provide you with a superior and
+                    more relevant browsing experience on the site.
+                    <a href="#">Learn more...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Accept</button>
+                <button class="cookie-button" id="declineBtn">Decline</button>
+            </div>
+        </div>
+
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
